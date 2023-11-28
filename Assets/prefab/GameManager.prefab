@@ -1,0 +1,152 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &824728113575570160
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 824728114458833527}
+  - component: {fileID: 824728114458833526}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: manager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &824728114458833527
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824728113575570160}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &824728114458833526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824728113575570160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37896f8b4ddf1d040829edf57b9420e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gameover: 0
+  Gameclear: 0
+  sceneButton: 0
+  playerobj: {fileID: 0}
+  speed: 100
+  bulletPoint: {x: 0, y: 0, z: 0}
+  bulletPointx: 1
+  bulletPointy: 5
+  bulletPrefab: {fileID: 3305790676518131681, guid: f10161abd4446ca4ea71dec283ccd702, type: 3}
+  bulletspeed: 360
+  bullettimes: 0
+  bulletflag: 1
+  bulletrb: {fileID: 7610862393501810896, guid: f10161abd4446ca4ea71dec283ccd702, type: 3}
+  bulletexplosion: {fileID: 1328134165890481354, guid: 650afa64ee767ce489e776970688b9a8, type: 3}
+  bulletexplosionobj: {fileID: 0}
+  UFOspawn: 0
+  UFOprefab: {fileID: 5510721208735350934, guid: 8e42bbfe6a6d56843a8a7bdd368b372f, type: 3}
+  UFOobj: {fileID: 0}
+  spawnpos: {x: 0, y: 0, z: 0}
+  spawnposx: -110
+  spawnInterval: 10
+  timer: 0
+  UFOspeed: 0.1
+  UFOscore: 320000003200000064000000960000006400000064000000320000002c010000
+  UFOscore2: 64000000640000006400000032000000960000006400000064000000320000003200000064000000960000006400000064000000320000002c010000
+  ikaSprite: {fileID: 0}
+  kaniSprite: {fileID: 0}
+  takoSprite: {fileID: 0}
+  ikaTables:
+  - {fileID: 21300000, guid: bfdf642121a5db74cb410e71c50da36c, type: 3}
+  - {fileID: 21300000, guid: 1860c08ca4efad645b1f40d6fd7c2c59, type: 3}
+  kaniTables:
+  - {fileID: 21300000, guid: c8218eabef3d6d942b1fb5ebcbd32d7a, type: 3}
+  - {fileID: 21300000, guid: b9c93c4d6a4144843a38dbc0720a1156, type: 3}
+  takoTables:
+  - {fileID: 21300000, guid: 08819ace7539af04882fc8123ad64d89, type: 3}
+  - {fileID: 21300000, guid: e9dd6d1bfa222714f82360675161f948, type: 3}
+  enemyIndex: 0
+  enemyTables:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemyPos: {x: 0, y: 0, z: 0}
+  enemyedgePos: {x: 0, y: 0, z: 0}
+  moveright: 1
+  movedown: 0
+  newPosition: {x: 0, y: 0, z: 0}
+  enemyspeed: 3
+  espeed: 0.01
+  score: 0
+  takoscore: 10
+  kaniscore: 20
+  ikascore: 30
+  scoretext: {fileID: 0}
